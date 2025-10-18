@@ -54,5 +54,9 @@ $RECYCLE.BIN/
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
-/.pytest_cache
-/venv
+.pytest_cache/
+venv/
+__pycache__/
+*.pyc
+locators/__pycache__/
+tests/__pycache__/# Updated gitignore
