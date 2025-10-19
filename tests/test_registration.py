@@ -32,8 +32,6 @@ class TestRegistration:
         # Проверяем переход на страницу логина
         wait.until(EC.url_to_be(f"{BASE_URL}/login"))
         assert driver.current_url == f"{BASE_URL}/login"
-        
-        driver.quit()
 
     # Тест регистрации с некорректным паролем
     def test_registration_invalid_password(self, driver, wait):
@@ -57,5 +55,3 @@ class TestRegistration:
         # Проверяем ошибку
         error_message = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "input__error"))).text
         assert "Некорректный пароль" in error_message
-        
-        driver.quit()

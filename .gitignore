@@ -59,4 +59,6 @@ venv/
 __pycache__/
 *.pyc
 locators/__pycache__/
-tests/__pycache__/# Updated gitignore
+tests/__pycache__/
+
+tests/__pycache__
