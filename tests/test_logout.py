@@ -31,7 +31,7 @@ def test_logout_from_personal_account(driver, wait):
     driver.find_element(*MainPageLocators.PERSONAL_ACCOUNT_BUTTON).click()
     
     # Проверяем что открылся личный кабинет
-    profile_link = wait.until(EC.visibility_of_element_located((By.XPATH, "//a[text()='Профиль']")))
+    profile_link = wait.until(EC.visibility_of_element_located(ProfilePageLocators.PROFILE_LINK))
     assert profile_link.is_displayed()
     
     # Выход из аккаунта через кнопку «Выйти»
