@@ -1,23 +1,5 @@
-# Sprint-5
 
-По результатам полученных замечаний внесены измения в структуру проекта, добавлены локаторы, изменены драйверы входа и ожидания, тестовые данные перенесены в модуль данных, удалены pycache. В тесты внесены соотетствующие изменения и проведена повторная проверка. Все тесты прошли успешно.
-collected 13 items
-
-tests/test_constructor.py::TestConstructor::test_constructor_sauces_section PASSED                              [  7%]
-tests/test_constructor.py::TestConstructor::test_constructor_fillings_section PASSED                            [ 15%]
-tests/test_constructor.py::TestConstructor::test_constructor_buns_section PASSED                                [ 23%]
-tests/test_login.py::TestLogin::test_login_from_main_page_button PASSED                                         [ 30%]
-tests/test_login.py::TestLogin::test_login_from_personal_account_button PASSED                                  [ 38%]
-tests/test_login.py::TestLogin::test_login_from_registration_form PASSED                                        [ 46%]
-tests/test_login.py::TestLogin::test_login_from_password_recovery_form PASSED                                   [ 53%]
-tests/test_logout.py::test_logout_from_personal_account PASSED                                                  [ 61%]
-tests/test_navigation.py::TestNavigation::test_navigate_to_personal_account PASSED                              [ 69%]
-tests/test_navigation.py::TestNavigation::test_navigate_from_personal_account_to_constructor_via_button PASSED  [ 76%]
-tests/test_navigation.py::TestNavigation::test_navigate_from_personal_account_to_constructor_via_logo PASSED    [ 84%]
-tests/test_registration.py::TestRegistration::test_successful_registration PASSED                               [ 92%]
-tests/test_registration.py::TestRegistration::test_registration_invalid_password PASSED                         [100%]
-
-В соответствии с заданием разработаны автоматизированные тесты для учебного проекта Stellar Burgers с использованием Selenium и Pytest.
+Разработаны автоматизированные тесты для учебного проекта Stellar Burgers с использованием Selenium и Pytest.
 Проект включает автоматические тесты для проверки ключевых функций сайта Stellar Burgers:
     Регистрация и Авторизация
     - Успешная регистрация нового пользователя
@@ -64,20 +46,19 @@ tests/test_registration.py::TestRegistration::test_registration_invalid_password
 Все тесты проходят успешно.
 
 Отчет о прверке pytest:
+Все тесты прошли успешно.
 collected 13 items
 
-tests/test_constructor.py::TestConstructor::test_constructor_sauces_section PASSED                                     [  7%]
-tests/test_constructor.py::TestConstructor::test_constructor_fillings_section PASSED                                   [ 15%]
-tests/test_constructor.py::TestConstructor::test_constructor_buns_section PASSED                                       [ 23%]
-tests/test_login.py::TestLogin::test_login_from_main_page_button PASSED                                                [ 30%]
-tests/test_login.py::TestLogin::test_login_from_personal_account_button PASSED                                         [ 38%]
-tests/test_login.py::TestLogin::test_login_from_registration_form PASSED                                               [ 46%]
-tests/test_login.py::TestLogin::test_login_from_password_recovery_form PASSED                                          [ 53%]
-tests/test_logout_from_personal_account.py::test_logout_from_personal_account PASSED                                   [ 61%]
-tests/test_navigation.py::TestNavigation::test_navigate_to_personal_account PASSED                                     [ 69%]
-tests/test_navigation.py::TestNavigation::test_navigate_from_personal_account_to_constructor_via_button PASSED         [ 76%]
-tests/test_navigation.py::TestNavigation::test_navigate_from_personal_account_to_constructor_via_logo PASSED           [ 84%]
-tests/test_registration.py::TestRegistration::test_successful_registration PASSED                                      [ 92%]
-tests/test_registration.py::TestRegistration::test_registration_invalid_password PASSED                                [100%]
-
-13 passed in 136.52s (0:02:16)
+tests/test_constructor.py::TestConstructor::test_constructor_sauces_section PASSED                              [  7%]
+tests/test_constructor.py::TestConstructor::test_constructor_fillings_section PASSED                            [ 15%]
+tests/test_constructor.py::TestConstructor::test_constructor_buns_section PASSED                                [ 23%]
+tests/test_login.py::TestLogin::test_login_from_main_page_button PASSED                                         [ 30%]
+tests/test_login.py::TestLogin::test_login_from_personal_account_button PASSED                                  [ 38%]
+tests/test_login.py::TestLogin::test_login_from_registration_form PASSED                                        [ 46%]
+tests/test_login.py::TestLogin::test_login_from_password_recovery_form PASSED                                   [ 53%]
+tests/test_logout.py::test_logout_from_personal_account PASSED                                                  [ 61%]
+tests/test_navigation.py::TestNavigation::test_navigate_to_personal_account PASSED                              [ 69%]
+tests/test_navigation.py::TestNavigation::test_navigate_from_personal_account_to_constructor_via_button PASSED  [ 76%]
+tests/test_navigation.py::TestNavigation::test_navigate_from_personal_account_to_constructor_via_logo PASSED    [ 84%]
+tests/test_registration.py::TestRegistration::test_successful_registration PASSED                               [ 92%]
+tests/test_registration.py::TestRegistration::test_registration_invalid_password PASSED                         [100%]
